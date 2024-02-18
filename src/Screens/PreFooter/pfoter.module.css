@@ -1,0 +1,27 @@
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.info .name{
+    font-size: 30px;
+    padding: 0 20px 0 0;
+}
+.info .describe{
+    color: grey;
+    font-size: 12px;
+    padding: 0 0 0 20px;
+
+}
+
+.contacts{
+    width: 66%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,47 @@
+.section{
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+    background-color: rgb(143, 62, 249);
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.active{
+    color: #ffe570;
+}
+.links{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.links li {
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+.links li:hover {
+    cursor: pointer;
+    color: #ffe570 ;
+}
+
+.links li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+.links li > a:hover {
+    cursor: pointer;
+    color: #ffe570 ;
+}
