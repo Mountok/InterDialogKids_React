@@ -4,7 +4,7 @@
 .slider{
     position: relative;
     border-radius: 10px;
-    width: 100%;
+    width: 1080px;
     height: 500px;
     overflow: hidden;
 }
