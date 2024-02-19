@@ -11,6 +11,8 @@ const Presentation = () => {
           <img className={styles.image} src="/images/kids.jpg" alt="" />
           <img className={styles.image} src="/images/kids.jpg" alt="" />
           <img className={styles.image} src="/images/kids.jpg" alt="" />
+          <img className={styles.image} src="/images/kids.jpg" alt="" />
+          <img className={styles.image} src="/images/kids.jpg" alt="" />
         </div>
         <div className={styles.content}>
           <div className={styles.titles}>
