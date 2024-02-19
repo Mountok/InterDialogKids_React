@@ -42,6 +42,12 @@ const HeaderSection2 = () => {
                 <li 
                 className={i18n.language == "en" && styles.active}
                 onClick={() => {changeLanguage("en")}}>English</li>
+                <li 
+                className={i18n.language == "ge" && styles.active}
+                onClick={() => {changeLanguage("ge")}}>Deutsch</li>
+                 <li 
+                className={i18n.language == "tu" && styles.active}
+                onClick={() => {changeLanguage("tu")}}>Türkçe</li>
                 <li
                 className={i18n.language == "ru" && styles.active} 
                 onClick={() => {changeLanguage("ru")}}>Русский</li>
