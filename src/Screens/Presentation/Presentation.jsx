@@ -8,10 +8,9 @@ const Presentation = () => {
       <div className={styles.slider}>
         <div className={styles.gallery_list}>
           <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/2.png" alt="" />
-          <img className={styles.image} src="/images/3.png" alt="" />
-          <img className={styles.image} src="/images/4.png" alt="" />
-          <img className={styles.image} src="/images/4.png" alt="" />
+          <img className={styles.image} src="/images/kids.jpg" alt="" />
+          <img className={styles.image} src="/images/kids.jpg" alt="" />
+          <img className={styles.image} src="/images/kids.jpg" alt="" />
         </div>
         <div className={styles.content}>
           <div className={styles.titles}>

@@ -25,22 +25,22 @@
 }
 @keyframes slider {
     0%{
-        left: 0px;
+        left: 0;
     }
     20%{
-        left: -1080px;
+        left: -100%;
     }
     40%{
-        left: -2160px;
+        left: -200%;
     }
     60%{
-        left: -3240px;
+        left: -300%;
     }
     80%{
-        left: -4320px;
+        left: -400%;
     }
     100%{
-        left: 0px;
+        left: 0;
     }
 }
 .gallery_list > img{
