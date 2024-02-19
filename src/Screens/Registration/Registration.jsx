@@ -3,7 +3,7 @@ import styles from "./r.module.css";
 const Registration = () => {
   return (
     <section className={styles.section}>
-      <h2>Регистрация</h2>
+      <h2>Цены</h2>
       <p>Регистрацию можно пройти лично в нашем офисе. Наши часы работы: пн. - пт. с 9:00 до 16:30</p>
       <table>
         <tr>

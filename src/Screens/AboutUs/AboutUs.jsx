@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section id="aboutus" className={styles.section}>
       <div className={styles.info}>
-        <h2 >О нас</h2>
+        <h2>О нас</h2>
         <p>
           У нас также сложились самые деловые и теплые отношения с департаментом
           семьи и детского воспитания венского магистрата, в чьем ведении
@@ -30,12 +30,16 @@ const AboutUs = () => {
             Изучения языка
           </div>
         </div>
-
       </div>
       <div className={styles.video}>
-        <video className={styles.player} controls>
-          <source src="" />
-        </video>
+        <iframe
+          className={styles.player}
+          src="https://www.youtube-nocookie.com/embed/lXuBWg-NciU?si=BNYqkOfcxmL5wniC"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          
+        ></iframe>
       </div>
     </section>
   );

@@ -25,18 +25,42 @@
     color: rgb(0, 0, 0);
 }
 .section table > tr:nth-child(odd){
-    background-color: #ff9a47;
+    background-color: rgb(143, 62, 249);;
     font-weight: 400;
 
 }
 .section table > tr:nth-child(even){
-    background-color: #63e1a6;
+    background-color: rgb(143, 62, 249);;
     font-weight: 400;
+}
+.section table > tr >td {
+    color: #ffffff;
+    font-weight: 500;
+}
+.section table > tr > td:nth-child(4){
+    color: #ff9a47;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.section table > tr > td:nth-child(5){
+    color: #ff9a47;
+    font-weight: 400;
+    font-size: 30px;
+}
+.section table > tr > td:nth-child(6){
+    color: #ff9a47;
+    font-weight: 400;
+    font-size: 30px;
 }
 .section table > tr:first-child {
     font-weight: 400;
     color: white;
     background-color: rgb(143, 62, 249);
+}
+.section table > tr:first-child td {
+    color: white;
+    font-size: 30px;
 }
 
 .text_color_red {
