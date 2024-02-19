@@ -7,6 +7,7 @@ import PreFooter from './Screens/PreFooter/PreFooter'
 import GalleryPage from './Views/Gallery/GalleryPage'
 import { AboutUsPage } from './Views/AboutUsPage/AboutUsPage'
 import Prices from './Views/Prices/Prices'
+import Contacts from './Views/Contacts/Contacts'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/gallery' element={<GalleryPage/>}/>
       <Route path='/aboutus' element={<AboutUsPage/>}/>
       <Route path='/prices' element={<Prices/>}/>
+      <Route path='/contacts' element={<Contacts/>}/>
     </Routes>
     </main>
     <PreFooter/>
