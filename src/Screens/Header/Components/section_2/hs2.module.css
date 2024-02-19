@@ -26,7 +26,6 @@
     padding: 0;
 }
 .links li {
-    font-size: 16px;
     margin-left: 30px;
     font-weight: 500;
     transition: all .3s linear;
@@ -36,14 +35,10 @@
     color: #ffe570 ;
 }
 
-.links li > a{
-    text-decoration: none;
-    color: white;
+.navbar ul:nth-child(1) li {
     font-size: 16px;
-    font-weight: 500;
-    transition: all .3s linear;
+    
 }
-.links li > a:hover {
-    cursor: pointer;
-    color: #ffe570 ;
+.navbar ul:nth-child(2) li {
+    font-size: 10px;
 }
