@@ -1,23 +1,26 @@
 import React from "react";
 import styles from "./r.module.css";
+import { useTranslation } from "react-i18next";
+
 const Registration = () => {
+  const [t,_] = useTranslation()
   return (
     <section className={styles.section}>
-      <h2>Цены</h2>
-      <p>Регистрацию можно пройти лично в нашем офисе. Наши часы работы: пн. - пт. с 9:00 до 16:30</p>
+      <h2>{t("prices_heading")}</h2>
+      <p>{t("prices_title")}</p>
       <table>
         <tr>
-          <td>Группа</td>
-          <td>График</td>
-          <td>Время</td>
-          <td>Завтрак</td>
-          <td>Обед</td>
-          <td>Ужин</td>
-          <td>Цена</td>
+          <td>{t("prices_th_1")}</td>
+          <td>{t("prices_th_2")}</td>
+          <td>{t("prices_th_3")}</td>
+          <td>{t("prices_th_4")}</td>
+          <td>{t("prices_th_5")}</td>
+          <td>{t("prices_th_6")}</td>
+          <td>{t("prices_th_7")}</td>
         </tr>
         <tr>
-          <td>Младшая</td>
-          <td>Полдня</td>
+          <td>{t("prices_junior_td")}</td>
+          <td>{t("prices_half_a_day")}</td>
           <td>8:00-12:00</td>
           <td>+</td>
           <td>+</td>
@@ -25,8 +28,8 @@ const Registration = () => {
           <td>75€</td>
         </tr>
         <tr>
-          <td>Младшая</td>
-          <td>Неполный день</td>
+          <td>{t("prices_junior_td")}</td>
+          <td>{t("prices_part_time")}</td>
           <td>8:00-14:00</td>
           <td>+</td>
           <td>+</td>
@@ -34,8 +37,8 @@ const Registration = () => {
           <td>75€</td>
         </tr>
         <tr>
-          <td>Младшая</td>
-          <td>Целый день</td>
+          <td>{t("prices_junior_td")}</td>
+          <td>{t("prices_full_day")}</td>
           <td>8:00-16:30</td>
           <td>+</td>
           <td>+</td>
@@ -43,8 +46,8 @@ const Registration = () => {
           <td>100€</td>
         </tr>
         <tr>
-          <td>Старшая</td>
-          <td>Полдня</td>
+          <td>{t("prices_senior_td")}</td>
+          <td>{t("prices_half_a_day")}</td>
           <td>8:00-12:00</td>
           <td>+</td>
           <td>+</td>
@@ -52,8 +55,8 @@ const Registration = () => {
           <td>75€</td>
         </tr>
         <tr>
-          <td>Старшая</td>
-          <td>Неполный день</td>
+          <td>{t("prices_senior_td")}</td>
+          <td>{t("prices_part_time")}</td>
           <td>8:00-14:00</td>
           <td>+</td>
           <td>+</td>
@@ -61,8 +64,8 @@ const Registration = () => {
           <td>75€</td>
         </tr>
         <tr>
-          <td>Старшая</td>
-          <td>Полный день</td>
+          <td>{t("prices_senior_td")}</td>
+          <td>{t("prices_full_day")}</td>
           <td>8:00-16:00</td>
           <td>+</td>
           <td>+</td>

@@ -9,9 +9,10 @@
     color: white;
 }
 .navbar{
-    display: flex;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     
 }
@@ -19,6 +20,7 @@
     color: #ffe570;
 }
 .links{
+    
     list-style: none;
     display: flex;
     padding: 0;

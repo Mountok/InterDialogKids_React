@@ -2,32 +2,30 @@ import React from "react";
 import styles from "./au.module.css";
 import { FaCube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const AboutUs = () => {
+  const [t,_] = useTranslation()
   return (
     <section id="aboutus" className={styles.section}>
       <div className={styles.info}>
-        <h2>О нас</h2>
+        <h2>{t("aboutus_heading")}</h2>
         <p>
-          У нас также сложились самые деловые и теплые отношения с департаментом
-          семьи и детского воспитания венского магистрата, в чьем ведении
-          находится открытие детских садов в Вене. <br /> Это признание явилось
-          результатом той большой работы, которую мы провели и проводим. Высокая
-          оценка нашей деятельности заслуженно стала предметом нашей гордости,
-          потому что, по милости Всевышнего, мы успешно справились и справляемся
-          со всеми трудностями на этом нелёгком пути.
+          {t("aboutus_content")}
         </p>
         <div className={styles.list}>
           <div>
             <FaCube className={styles.icon} />
-            Дошкольная подготовка
+            {t("aboutus_item_1")}
           </div>
           <div>
             <FaCube className={styles.icon} />
-            Всесторонне развитие
+            {t("aboutus_item_2")}
+            
           </div>
           <div>
             <FaCube className={styles.icon} />
-            Изучения языка
+            {t("aboutus_item_3")}
+          
           </div>
         </div>
       </div>

@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./pfoter.module.css";
+import {useTranslation} from "react-i18next"
+
 const PreFooter = () => {
+  const [t,_] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.info}>
@@ -9,8 +12,7 @@ const PreFooter = () => {
 
         <hr />
         <p className={styles.describe}>
-          Вы можете обращаться к нам в любое удобное для вас время по всем
-          интересующим вас вопросам.
+          {t("footer_text")}
         </p>
       </div>
       <div className={styles.contacts}>

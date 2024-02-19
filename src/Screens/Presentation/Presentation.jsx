@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./psnt.module.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Presentation = () => {
+  const [t,i18n] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.slider}>
@@ -17,18 +19,13 @@ const Presentation = () => {
         <div className={styles.content}>
           <div className={styles.titles}>
             <h1 className={styles.heading}>
-              Открытый мир <span>для всех детей</span>
+              {t("presentation_header")}
             </h1>
             <p className={styles.subtitle}>
-              Создание первого детского садика в рамках организации ИнтерДиалог
-              (InterDialog) состоялось в начале 2012 года в Вене и уже спустя
-              короткое время были открыты еще 6 садика. У нас также сложились
-              самые деловые и теплые отношения с департаментом семьи и детского
-              воспитания венского магистрата, в чьем ведении находится открытие
-              детских садов в Вене.
+              {t("presentation_subtitle")}
             </p>
             <Link className={styles.btn} to="/gallery">
-              Регистрация
+              {t("presentation_reg")}
             </Link>
           </div>
         </div>

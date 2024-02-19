@@ -3,43 +3,34 @@ import styles from "./c.module.css";
 import { SiSololearn } from "react-icons/si";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaPlateWheat } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
 const Cards = () => {
+  const [t, _] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.card}>
         <div className={styles.icons}>
           <SiSololearn />
         </div>
-        <h2>Развитие & Веселье</h2>
-        <p>
-          В наших садиках составлена грамотная и эффективная программа для
-          всестороннего развития ребенка. Особый акцент делается на развивающие
-          игры для познания окружающего мира. Пристальное внимание мы также уделяем дошкольной детской подготовке.  
-        </p>
+        <h2>{t("card_1_header")}</h2>
+        <p>{t("card_1_content")}</p>
       </div>
 
       <div className={styles.card}>
         <div className={styles.icons}>
           <FaChalkboardTeacher />
         </div>
-        <h2>Квалливицированные Учителя</h2>
-        <p>
-          Воспитательницы в наших садиках имеют ссответсвующее педагогическое
-          образование, при этом они не останавливаются на достигнутом, а должны
-          постоянно повышать квалификацию, изучать новые методы воспитания детей.
-        </p>
+        <h2>{t("card_2_header")}</h2>
+        <p>{t("card_2_content")}</p>
       </div>
 
       <div className={styles.card}>
         <div className={styles.icons}>
           <FaPlateWheat />
         </div>
-        <h2>Здоровое питание & Гигиена</h2>
-        <p>
-        Мы регулярно обновляем наше меню,  учитывая при этом индивидуальные пристрастия и потребности детей.
-        Чистота, которой мы стараемся окружить наших детей и приучить их к ней – один из самых важных залогов правильного воспитания детей.
-        </p>
+        <h2>{t("card_3_header")}</h2>
+        <p>{t("card_3_content")}</p>
       </div>
     </section>
   );
