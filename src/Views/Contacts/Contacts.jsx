@@ -4,6 +4,16 @@ import {useTranslation} from "react-i18next"
 const Contacts = () => {
   const [t,_] = useTranslation()
   return (
+    <>
+  <section className={styles.map}>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.6675791001735!2d16.362645776551386!3d48.232275271254125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d064ab0b507f7%3A0x20e51cd21ccbc4ac!2zRGVuaXNnYXNzZSAzOC80IDUsIDEyMDAgV2llbiwg0JDQstGB0YLRgNC40Y8!5e0!3m2!1sru!2sru!4v1708407168230!5m2!1sru!2sru" 
+    width="600" height="450" 
+    style={{border:0}} 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
     <section className={styles.section}>
       <div className={styles.card}>
         <h2>{t("contacts_item_1_heading")}</h2>
@@ -31,6 +41,8 @@ const Contacts = () => {
         </p>
       </div>
     </section>
+    
+    </>
   )
 }
 
