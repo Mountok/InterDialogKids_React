@@ -1,37 +1,40 @@
 .section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0 20px 0;
 }
 
-.card{
-    width: 300px;
-    padding: 0 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.card {
+  width: 300px;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
 .card:nth-child(2) {
-    border-left: 1px solid rgb(218, 218, 218);
-    border-right: 1px solid rgb(218, 218, 218);
+  border-left: 1px solid rgb(218, 218, 218);
+  border-right: 1px solid rgb(218, 218, 218);
 }
+
 .card h2 {
-    margin: 0 0 20px 0;
+  margin: 0 0 20px 0;
 }
+
 .card p {
-    font-size: 14px;
-    color: rgb(132, 132, 132);
-    line-height: 25px;
+  font-size: 14px;
+  color: rgb(132, 132, 132);
+  line-height: 25px;
 
 }
 
 
 
 .icons {
-color: white;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +44,7 @@ color: white;
   height: 55px;
   position: relative;
 }
+
 .icons:before,
 .icons:after {
   content: "";
@@ -51,9 +55,11 @@ color: white;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
 }
+
 .icons:before {
   top: -25px;
 }
+
 .icons:after {
   bottom: -25px;
   border-top: 25px solid #f1ccae;
@@ -62,9 +68,11 @@ color: white;
 .card .icons:nth-child(1) {
   background: #ff9a47;
 }
+
 .card .icons:nth-child(1):before {
   border-bottom: 25px solid #ff9a47;
 }
+
 .card .icons:nth-child(1):after {
   border-top: 25px solid #ff9a47;
 }
@@ -73,9 +81,11 @@ color: white;
 .card:nth-child(2) .icons {
   background: #ff665e;
 }
+
 .card:nth-child(2) .icons:before {
   border-bottom: 25px solid #ff665e;
 }
+
 .card:nth-child(2) .icons:after {
   border-top: 25px solid #ff665e;
 }
@@ -83,9 +93,123 @@ color: white;
 .card:nth-child(3) .icons {
   background: #63e1a6;
 }
+
 .card:nth-child(3) .icons:before {
   border-bottom: 25px solid #63e1a6;
 }
+
 .card:nth-child(3) .icons:after {
   border-top: 25px solid #63e1a6;
+}
+
+
+
+@media (max-width: 526px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+  }
+
+  .card {
+    width: 300px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card:nth-child(2) {
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+  }
+
+  .card h2 {
+    margin: 0 0 20px 0;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: rgb(132, 132, 132);
+    line-height: 25px;
+
+  }
+
+
+
+  .icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 30px 0;
+    width: 100px;
+    height: 55px;
+    position: relative;
+  }
+
+  .icons:before,
+  .icons:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+  }
+
+  .icons:before {
+    top: -25px;
+  }
+
+  .icons:after {
+    bottom: -25px;
+    border-top: 25px solid #f1ccae;
+  }
+
+  .card .icons:nth-child(1) {
+    background: #ff9a47;
+  }
+
+  .card .icons:nth-child(1):before {
+    border-bottom: 25px solid #ff9a47;
+  }
+
+  .card .icons:nth-child(1):after {
+    border-top: 25px solid #ff9a47;
+  }
+
+
+  .card:nth-child(2) .icons {
+    background: #ff665e;
+  }
+
+  .card:nth-child(2) .icons:before {
+    border-bottom: 25px solid #ff665e;
+  }
+
+  .card:nth-child(2) .icons:after {
+    border-top: 25px solid #ff665e;
+  }
+
+  .card:nth-child(3) .icons {
+    background: #63e1a6;
+  }
+
+  .card:nth-child(3) .icons:before {
+    border-bottom: 25px solid #63e1a6;
+  }
+
+  .card:nth-child(3) .icons:after {
+    border-top: 25px solid #63e1a6;
+  }
+
+
+
 }

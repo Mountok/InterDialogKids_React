@@ -106,3 +106,95 @@
     background-color: rgb(187, 34, 0);
 
 }
+
+@media (max-width: 526px) {
+    .section{
+        padding: 10px 0;
+    }
+    .slider{
+        position: relative;
+        border-radius: 10px;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .gallery_list{
+        width: 400%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: inherit;
+        display: flex;
+        z-index: 0;
+    
+        animation: slider;
+        animation-duration: 50s;
+        animation-delay: 1s;
+        animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+        animation-iteration-count: infinite;
+        animation-play-state:running; 
+    }
+
+    .gallery_list > img{
+        width: 100%;
+    }
+    
+    
+    .content{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.362);
+        color: white;
+        width: inherit;
+        height: inherit;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titles{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading{
+        text-transform: uppercase;
+        text-align: center;
+        width: 500px;
+        font-size: 20px;
+        line-height: 50px;
+        margin-bottom: 5px;
+    }
+    .heading > span{
+        font-size: 5px;
+    }
+    
+    .subtitle{
+        font-size: 10px;
+        letter-spacing: .5px;
+        line-height: 15px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .btn{
+        
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 15px;
+        border-radius: 6px;
+      
+    
+        background-color: rgb(255, 47, 0);
+        transition: .128s linear;
+    }
+    .btn:hover{
+        background-color: rgb(187, 34, 0);
+    
+    }
+}

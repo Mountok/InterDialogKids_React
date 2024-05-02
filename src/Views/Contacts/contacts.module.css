@@ -1,11 +1,11 @@
-.section{
+.section {
     padding: 100px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.card{
+.card {
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -14,21 +14,24 @@
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 12px  rgb(247, 247, 247), 0 0 5px rgb(237, 237, 237);
+    box-shadow: 0 0 12px rgb(247, 247, 247), 0 0 5px rgb(237, 237, 237);
     transition: all .3s linear;
 }
-.card:hover{
-    box-shadow: 0 0 12px  rgb(213, 213, 213), 0 0 5px rgb(202, 202, 202);
+
+.card:hover {
+    box-shadow: 0 0 12px rgb(213, 213, 213), 0 0 5px rgb(202, 202, 202);
 
 }
+
 .card h2 {
     text-transform: uppercase;
     padding-bottom: 20px;
-    font-weight:400;
+    font-weight: 400;
     font-size: 25px;
     color: rgb(143, 62, 249);
 }
-.card p{
+
+.card p {
     line-height: 28px;
     font-size: 18px;
     color: rgb(109, 79, 118);
@@ -40,7 +43,8 @@
     justify-content: center;
     padding-top: 50px;
 }
-.map iframe{
+
+.map iframe {
     border-radius: 10px;
     transform: translateX(10px);
     transform: translateY(10px);
@@ -48,10 +52,54 @@
     transition: all .2s linear;
     opacity: 0.8;
 }
-.map iframe:hover{
+
+.map iframe:hover {
     transform: translateX(0px);
     transform: translateY(0px);
     opacity: 1;
 
     box-shadow: 8px 8px 1px 1px rgb(143, 62, 249);
+}
+
+@media (max-width: 526px) {
+    .section {
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 0 12px rgb(247, 247, 247), 0 0 5px rgb(237, 237, 237);
+        transition: all .3s linear;
+        margin-bottom: 20px;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 12px rgb(213, 213, 213), 0 0 5px rgb(202, 202, 202);
+
+    }
+
+    .card h2 {
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        font-weight: 400;
+        font-size: 25px;
+        color: rgb(143, 62, 249);
+    }
+
+    .card p {
+        line-height: 28px;
+        font-size: 18px;
+        color: rgb(109, 79, 118);
+    }
 }

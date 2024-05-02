@@ -41,19 +41,19 @@ const HeaderSection2 = () => {
             
                 <li 
                 className={i18n.language == "en" && styles.active}
-                onClick={() => {changeLanguage("en")}}>English</li>
+                onClick={() => {changeLanguage("en")}}>EN</li>
                 <li 
                 className={i18n.language == "ge" && styles.active}
-                onClick={() => {changeLanguage("ge")}}>Deutsch</li>
+                onClick={() => {changeLanguage("ge")}}>DE</li>
                  <li 
                 className={i18n.language == "tu" && styles.active}
-                onClick={() => {changeLanguage("tu")}}>Türkçe</li>
+                onClick={() => {changeLanguage("tu")}}>TU</li>
                 <li
                 className={i18n.language == "ru" && styles.active} 
-                onClick={() => {changeLanguage("ru")}}>Русский</li>
-                <li
+                onClick={() => {changeLanguage("ru")}}>RU</li>
+                {/* <li
                 className={i18n.language == "chr" && styles.active} 
-                onClick={() => {changeLanguage("chr")}}>Нойхчий мотт</li>
+                onClick={() => {changeLanguage("chr")}}>Нойхчий мотт</li> */}
             </ul>
         </nav>
     </section>

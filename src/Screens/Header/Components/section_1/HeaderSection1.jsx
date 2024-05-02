@@ -6,7 +6,7 @@ export const HeaderSection1 = () => {
   return (
     <section className={styles.section}>
         <div className={styles.logotype}>
-        <img width='50px' src="/logo.png" alt="" />
+        <img  src="/logo.png" alt="" />
         InterDialog
         </div>
         <div className={styles.info}>

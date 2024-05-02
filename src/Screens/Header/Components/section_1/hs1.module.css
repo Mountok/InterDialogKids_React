@@ -13,11 +13,10 @@
     font-weight: 500;
 
 }
-.info{
-    font-size: 14px;
-    display: flex;
-    
+.logotype img {
+    width: 50px;
 }
+
 .address{
     display: flex;
     align-items: center;
@@ -31,4 +30,19 @@
 }
 .icon{
     color: chocolate;
+}
+
+
+@media (max-width: 526px) {
+    .info{
+        font-size: 8px;
+    }
+
+    .logotype{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .logotype img {
+        width: 25px;
+    }
 }

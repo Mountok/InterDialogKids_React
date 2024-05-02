@@ -1,14 +1,16 @@
-.section{
+.section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section > h2 {
+
+.section>h2 {
     text-transform: uppercase;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.section table{
+
+.section table {
     width: 80%;
     text-align: center;
     margin: 0;
@@ -18,39 +20,48 @@
     border-radius: 10px;
     box-shadow: 0 0 1px 10px rgb(143, 62, 249);
 }
-.section table > tr {
+
+.section table>tr {
     height: 40px;
     font-size: 20px;
     font-weight: 200;
     color: rgb(0, 0, 0);
     transition: all .15s linear;
 }
-.section table > tr:nth-child(odd){
-    background-color: rgb(143, 62, 249);;
+
+.section table>tr:nth-child(odd) {
+    background-color: rgb(143, 62, 249);
+    ;
 
 }
-.section table > tr:nth-child(even){
-    background-color: rgb(143, 62, 249);;
+
+.section table>tr:nth-child(even) {
+    background-color: rgb(143, 62, 249);
+    ;
 }
-.section table > tr >td {
+
+.section table>tr>td {
     color: #ffffff;
 }
-.section table > tr > td:nth-child(4){
+
+.section table>tr>td:nth-child(4) {
     font-size: 30px;
 }
 
-.section table > tr > td:nth-child(5){
+.section table>tr>td:nth-child(5) {
     font-size: 30px;
 }
-.section table > tr > td:nth-child(6){
+
+.section table>tr>td:nth-child(6) {
     font-size: 30px;
 }
-.section table > tr:first-child {
+
+.section table>tr:first-child {
     color: white;
     background-color: rgb(143, 62, 249);
 }
 
-.section table > tr:first-child td {
+.section table>tr:first-child td {
     color: white;
     font-size: 30px;
 }
@@ -58,9 +69,95 @@
 .text_color_red {
     color: red;
 }
-.section table > tr:hover {
+
+.section table>tr:hover {
     background-color: #ff9a47;
 }
-.section table > tr:first-child:hover {
+
+.section table>tr:first-child:hover {
     background-color: rgb(143, 62, 249);
+}
+
+
+@media (max-width: 526px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section>h2 {
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .section table {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        margin: 30px 0 60px 0;
+        border-radius: 10px;
+        box-shadow: 0 0 1px 10px rgb(143, 62, 249);
+    }
+
+    .section table>tr {
+        height: 10px;
+        font-size: 8px;
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        transition: all .15s linear;
+    }
+
+    .section table>tr:nth-child(odd) {
+        background-color: rgb(143, 62, 249);
+        ;
+
+    }
+
+    .section table>tr:nth-child(even) {
+        background-color: rgb(143, 62, 249);
+        ;
+    }
+
+    .section table>tr>td {
+        color: #ffffff;
+    }
+
+    .section table>tr>td:nth-child(4) {
+        font-size: 10px;
+    }
+
+    .section table>tr>td:nth-child(5) {
+        font-size: 15px;
+    }
+
+    .section table>tr>td:nth-child(6) {
+        font-size: 15px;
+    }
+
+    .section table>tr:first-child {
+        color: white;
+        background-color: rgb(143, 62, 249);
+    }
+
+    .section table>tr:first-child td {
+        color: white;
+        font-size: 15px;
+    }
+
+    .text_color_red {
+        color: red;
+    }
+
+    .section table>tr:hover {
+        background-color: #ff9a47;
+    }
+
+    .section table>tr:first-child:hover {
+        background-color: rgb(143, 62, 249);
+    }
 }
