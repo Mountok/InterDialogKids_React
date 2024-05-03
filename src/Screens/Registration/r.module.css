@@ -4,11 +4,6 @@
     align-items: center;
 }
 
-.section>h2 {
-    text-transform: uppercase;
-    font-size: 45px;
-    margin-bottom: 20px;
-}
 
 .section table {
     width: 80%;
@@ -21,9 +16,9 @@
     box-shadow: 0 0 1px 10px rgb(143, 62, 249);
 }
 
-.section table>tr {
+.section table tr {
     height: 40px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
     color: rgb(0, 0, 0);
     transition: all .15s linear;
@@ -45,15 +40,12 @@
 }
 
 .section table>tr>td:nth-child(4) {
-    font-size: 30px;
 }
 
 .section table>tr>td:nth-child(5) {
-    font-size: 30px;
 }
 
 .section table>tr>td:nth-child(6) {
-    font-size: 30px;
 }
 
 .section table>tr:first-child {
@@ -63,7 +55,6 @@
 
 .section table>tr:first-child td {
     color: white;
-    font-size: 30px;
 }
 
 .text_color_red {
@@ -84,17 +75,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+
     }
 
     .section>h2 {
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 1px;
+        margin: 0;
         margin-top: 15px;
         margin-bottom: 10px;
     }
+    .section > p {
+        text-align: center;
+    }
 
     .section table {
-        width: 100%;
+        width: 95%;
         text-align: center;
         margin: 0;
         border-spacing: 0px;
@@ -106,7 +103,7 @@
 
     .section table>tr {
         height: 10px;
-        font-size: 8px;
+        font-size: 11px;
         font-weight: 200;
         color: rgb(0, 0, 0);
         transition: all .15s linear;
@@ -128,25 +125,23 @@
     }
 
     .section table>tr>td:nth-child(4) {
-        font-size: 10px;
     }
 
     .section table>tr>td:nth-child(5) {
-        font-size: 15px;
+
     }
 
     .section table>tr>td:nth-child(6) {
-        font-size: 15px;
     }
 
     .section table>tr:first-child {
+        
         color: white;
         background-color: rgb(143, 62, 249);
     }
 
     .section table>tr:first-child td {
         color: white;
-        font-size: 15px;
     }
 
     .text_color_red {

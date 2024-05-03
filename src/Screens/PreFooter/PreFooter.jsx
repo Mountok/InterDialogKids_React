@@ -17,10 +17,19 @@ const PreFooter = () => {
       </div>
       <div className={styles.contacts}>
         <div>
-          <h2>EMAIL</h2> office@interdialog.at
+          <h2>EMAIL</h2> 
+          <a style={{
+            textDecoration: "none",
+            color: "black",
+          }} href="mailto:azizlaziz@yahoo.com">azizlaziz@yahoo.com</a>
+          
         </div>
         <div>
-          <h2>PHONE</h2> 0664 / 5680155
+          <h2>PHONE</h2>
+          <a style={{
+            textDecoration: "none",
+            color: "black",
+          }} href="tel:+4318906270">+43 (1) 890 62 70</a>
         </div>
         <div>
           <h2>ADDRESS</h2> Denisgasse 38 / 4+5 1200 Wien

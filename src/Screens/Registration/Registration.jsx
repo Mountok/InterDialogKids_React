@@ -6,7 +6,6 @@ const Registration = () => {
   const [t,_] = useTranslation()
   return (
     <section className={styles.section}>
-      <h2>{t("prices_heading")}</h2>
       <p>{t("prices_title")}</p>
       <table>
         <tr>
