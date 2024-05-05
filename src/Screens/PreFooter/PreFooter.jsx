@@ -21,7 +21,7 @@ const PreFooter = () => {
           <a style={{
             textDecoration: "none",
             color: "black",
-          }} href="mailto:azizlaziz@yahoo.com">azizlaziz@yahoo.com</a>
+          }} href="mailto:lazizlaziz@yahoo.com">Lazizlaziz@yahoo.com</a>
           
         </div>
         <div>

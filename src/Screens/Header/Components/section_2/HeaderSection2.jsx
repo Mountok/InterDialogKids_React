@@ -51,9 +51,9 @@ const HeaderSection2 = () => {
                 <li
                 className={i18n.language == "ru" && styles.active} 
                 onClick={() => {changeLanguage("ru")}}>RU</li>
-                {/* <li
+                <li
                 className={i18n.language == "chr" && styles.active} 
-                onClick={() => {changeLanguage("chr")}}>Нойхчий мотт</li> */}
+                onClick={() => {changeLanguage("chr")}}>Нойхчий мотт</li>
             </ul>
         </nav>
     </section>
