@@ -2,20 +2,14 @@ import React from "react";
 import styles from "./psnt.module.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import MainSlider from "./MainSlider";
 
 const Presentation = () => {
   const [t,i18n] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.slider}>
-        <div className={styles.gallery_list}>
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-          <img className={styles.image} src="/images/kids.jpg" alt="" />
-        </div>
+        <MainSlider/>
         <div className={styles.content}>
           <div className={styles.titles}>
             <h1 className={styles.heading}>

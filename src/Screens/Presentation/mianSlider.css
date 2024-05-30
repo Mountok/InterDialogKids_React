@@ -1,0 +1,146 @@
+.sliderBlock {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: inherit;
+    background-color: rgb(170, 170, 170);
+}
+
+.slider_image {
+    transition: .5s;
+    width: inherit;
+    position: absolute;
+    height: inherit;
+    animation: changeBg;
+    animation-duration:450s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: rgb(131, 131, 131);
+    background-image: url(/images/kids.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+    .sliderBlock {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 30dvh;
+        background-color: rgb(170, 170, 170);
+    }
+}
+
+@keyframes changeBg {
+    0%{
+        
+        background-image: url(/images/kids.jpg);
+      }
+    3%{
+        background-image: url("/images/1.jpeg");
+
+      }
+    6%{
+        background-image: url("/images/2.jpeg");
+        
+      }
+      10%{
+        background-image: url("/images/3.jpeg");
+
+    
+      }
+      13%{
+        background-image: url("/images/4.jpeg");
+
+    
+      }
+      16%{
+        background-image: url("/images/5.jpg");
+    
+      }
+
+      20%{
+        background-image: url("/images/6.jpg");
+      }
+      23%{
+        background-image: url("/images/7.jpg");
+      }
+      26%{
+        background-image: url("/images/8.jpg");
+
+      }
+      30%{
+        background-image: url("/images/9.jpg");
+
+      }
+      33%{
+        background-image: url("/images/10.jpg");
+
+      }
+      36%{
+        background-image: url("/images/11.jpg");
+
+      }
+      40%{
+        background-image: url("/images/12.jpg");
+
+      }
+      43%{
+        background-image: url("/images/13.jpg");
+        
+        }
+      46%{
+        background-image: url("/images/14.jpg");   
+      }
+      50%{
+        background-image: url("/images/15.jpg");  
+      }
+      53%{
+        background-image: url("/images/16.jpg");  
+      }
+      56%{
+        background-image: url("/images/17.jpg");  
+      }
+      60%{
+        background-image: url("/images/kids.jpg");   
+      }
+      63%{
+        background-image: url("/images/2.jpg");  
+      }
+      66%{
+        background-image: url("/images/3.jpg");   
+      }
+      70%{
+        background-image: url("/images/4.jpg");   
+      }
+      73%{
+        background-image: url("/images/5.jpg"); 
+      }
+      76%{
+        background-image: url("/images/6.jpg");    
+      }
+      80%{
+        background-image: url("/images/6.jpg");  
+      }
+      83%{
+        background-image: url("/images/7.jpg");   
+      }
+      86%{
+        background-image: url("/images/8.jpg");  
+      }
+      90%{
+        background-image: url("/images/9.jpg");    
+      }
+      93%{
+        background-image: url("/images/10.jpg");  
+      }
+      96%{
+        background-image: url("/images/11.jpg"); 
+      }
+      100%{
+        background-image: url("/images/kids.jpg");
+    
+      }
+    }
+    
+    
