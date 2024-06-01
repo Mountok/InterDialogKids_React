@@ -3,14 +3,15 @@ import styles from "./psnt.module.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import MainSlider from "./MainSlider";
-
 const Presentation = () => {
   const [t,i18n] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.slider}>
         <MainSlider/>
-        <div className={styles.content}>
+        
+      </div>
+      <div className={styles.content}>
           <div className={styles.titles}>
             <h1 className={styles.heading}>
               {t("presentation_header")}
@@ -23,7 +24,6 @@ const Presentation = () => {
             </Link>
           </div>
         </div>
-      </div>
     </section>
   );
 };
