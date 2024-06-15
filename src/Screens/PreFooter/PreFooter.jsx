@@ -21,7 +21,7 @@ const PreFooter = () => {
           <a style={{
             textDecoration: "none",
             color: "black",
-          }} href="mailto:lazizlaziz@yahoo.com">Lazizlaziz@yahoo.com</a>
+          }} href="mailto:lazizlaziz@yahoo.com">lazizlaziz@yahoo.com</a>
           
         </div>
         <div>
@@ -30,6 +30,12 @@ const PreFooter = () => {
             textDecoration: "none",
             color: "black",
           }} href="tel:+4318906270">+43 (1) 890 62 70</a>
+          <h2>Mobile</h2>
+          <a style={{
+            textDecoration: "none",
+            color: "black",
+          }} href="tel:+436645680155">+43 664 568 01 55</a>
+
         </div>
         <div>
           <h2>ADDRESS</h2> Denisgasse 38 / 4+5 1200 Wien

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <p>
-        InterDialogue 2024. Privacy Policy.         
+        InterDialog 2024. Privacy Policy.         
         </p>
     </footer>
   )

@@ -41,6 +41,20 @@ const Contacts = () => {
         </p>
       </div>
     </section>
+
+    <section className={styles.uridinfo}>
+      <p>Vereinsname: <span>Vereinsname:</span></p>
+      <p>ZVR-Zahl: <span>431097370</span></p>
+      <p>Zuständigkeit: <span>Landespolizeidirektion Wien, Referat Vereins-, Versammlungs- und Medienrechtsangelegenheiten</span></p>
+      <p>Sitz: <span>Wien</span></p>
+      <p>c/o: <span>Mag. Laziz Vagaev </span></p>
+      <p>Zustelladresse: <span>1170 Wien, Neuwaldeggerstraße 19-21/4/5</span></p>
+      <p>Land: <span>Österreich</span></p>
+      <p>Entstehungsdatum: <span>09.09.2010</span></p>
+      <p>Bank Austria: <span>Verein InterDialog</span></p>
+      <p>IBAN: <span>AT73 1200 0515 1669 9829</span></p>
+      <p>BIC: <span>BKAUATWW</span></p>
+    </section>
     
     </>
   )

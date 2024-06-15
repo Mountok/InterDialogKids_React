@@ -12,8 +12,11 @@
   position: absolute;
   height: inherit;
   animation: changeBg;
-  animation-duration: 145s;
+  animation-duration: 36s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
+  background-image: url("/images/children_1.jpg");
+
   animation-timing-function: cubic-bezier(0.25, 0.1, 0, 1.33);
   background-color: rgb(131, 131, 131);
   background-size: 100% 100%;
@@ -33,111 +36,49 @@
 @keyframes changeBg {
   0%{
         
-    background-image: url(/images/kids.jpg);
+    background-image: url("/images/children_1.jpg");
   }
-3%{
-    background-image: url("/images/1.jpeg");
+20%{
+    background-image: url(/images/kids.jpg);
+
 
   }
-6%{
-    background-image: url("/images/2.jpeg");
+40%{
+    background-image: url("/images/children_2.jpg");
+
     
   }
-  10%{
-    background-image: url("/images/3.jpeg");
+  60%{
+    background-image: url("/images/children_3.jpg");
 
 
   }
-  13%{
+  80%{
     background-image: url("/images/4.jpeg");
 
 
   }
-  16%{
-    background-image: url("/images/5.jpg");
-
-  }
-
-  20%{
-    background-image: url("/images/6.jpg");
-  }
-  23%{
-    background-image: url("/images/7.jpg");
-  }
-  26%{
-    background-image: url("/images/8.jpg");
-
-  }
-  30%{
-    background-image: url("/images/9.jpg");
-
-  }
-  33%{
-    background-image: url("/images/10.jpg");
-
-  }
-  36%{
-    background-image: url("/images/11.jpg");
-
-  }
-  40%{
-    background-image: url("/images/12.jpg");
-
-  }
-  43%{
-    background-image: url("/images/13.jpg");
-    
-    }
-  46%{
-    background-image: url("/images/14.jpg");   
-  }
-  50%{
-    background-image: url("/images/15.jpg");  
-  }
-  53%{
-    background-image: url("/images/16.jpg");  
-  }
-  56%{
-    background-image: url("/images/17.jpg");  
-  }
-  60%{
-    background-image: url("/images/kids.jpg");   
-  }
-  63%{
-    background-image: url("/images/2.jpg");  
-  }
-  66%{
-    background-image: url("/images/3.jpg");   
-  }
-  70%{
-    background-image: url("/images/4.jpg");   
-  }
-  73%{
-    background-image: url("/images/5.jpg"); 
-  }
-  76%{
-    background-image: url("/images/6.jpg");    
-  }
-  80%{
-    background-image: url("/images/6.jpg");  
-  }
-  83%{
-    background-image: url("/images/7.jpg");   
-  }
-  86%{
-    background-image: url("/images/8.jpg");  
-  }
-  90%{
-    background-image: url("/images/9.jpg");    
-  }
-  93%{
-    background-image: url("/images/10.jpg");  
-  }
-  96%{
-    background-image: url("/images/11.jpg"); 
-  }
   100%{
-    background-image: url("/images/kids.jpg");
+    background-image: url("/images/5.jpg");
+  }
+}
 
+.slide {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  font-size: 24px;
+  position: relative;
+}
+.slide_image{
+  width: 100%;
+}
+
+
+@media (max-width: 480px) {
+  .slide {
+    height: 30vh;
   }
 }

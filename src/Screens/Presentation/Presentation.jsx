@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./psnt.module.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import MainSlider from "./MainSlider";
+import SliderComponent from "./SliderComponent";
 const Presentation = () => {
   const [t,i18n] = useTranslation()
   return (
     <section className={styles.section}>
       <div className={styles.slider}>
-        <MainSlider/>
+        <SliderComponent/>
         
       </div>
       <div className={styles.content}>

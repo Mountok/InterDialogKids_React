@@ -15,7 +15,6 @@ const Registration = () => {
           <td>{t("prices_th_4")}</td>
           <td>{t("prices_th_5")}</td>
           <td>{t("prices_th_6")}</td>
-          <td>{t("prices_th_7")}</td>
         </tr>
         <tr>
           <td>{t("prices_junior_td")}</td>
@@ -24,7 +23,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>-</td>
-          <td>75€</td>
         </tr>
         <tr>
           <td>{t("prices_junior_td")}</td>
@@ -33,7 +31,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>-</td>
-          <td>75€</td>
         </tr>
         <tr>
           <td>{t("prices_junior_td")}</td>
@@ -42,7 +39,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>+</td>
-          <td>100€</td>
         </tr>
         <tr>
           <td>{t("prices_senior_td")}</td>
@@ -51,7 +47,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>-</td>
-          <td>75€</td>
         </tr>
         <tr>
           <td>{t("prices_senior_td")}</td>
@@ -60,7 +55,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>-</td>
-          <td>75€</td>
         </tr>
         <tr>
           <td>{t("prices_senior_td")}</td>
@@ -69,7 +63,6 @@ const Registration = () => {
           <td>+</td>
           <td>+</td>
           <td>+</td>
-          <td>100€</td>
         </tr>
       </table>
     </section>

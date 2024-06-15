@@ -26,9 +26,7 @@ const HeaderSection2 = () => {
                 <li 
                 onClick={()=>navigate("/gallery")}
                 className={location.pathname == "/gallery" && styles.active}>{t("header_gallery")}</li>
-                <li 
-                onClick={()=>navigate("/prices")}
-                className={location.pathname == "/prices" && styles.active}>{t("header_prices")}</li>
+
                 <li 
                 onClick={()=>navigate("/contacts")}
                 className={location.pathname == "/contacts" && styles.active}>{t("header_contacts")}</li>
