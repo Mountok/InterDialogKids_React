@@ -27,11 +27,11 @@ const AboutUs = () => {
             {t("aboutus_item_3")}
           
           </div>
-          <div>
+          {/* <div>
             <FaCube className={styles.icon} />
             {t("aboutus_item_4")}
           
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.video}>

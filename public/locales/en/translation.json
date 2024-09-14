@@ -1,11 +1,14 @@
     {
+        "header_video": "Video",
+
         "header_home": "HOME",
         "header_aboutus": "ABOUT US",
         "header_gallery": "GALLERY",
         "header_contacts": "CONTACTS",
         "presentation_header": "OPEN WORLD FOR EVERY CHILD",
-        "presentation_subtitle": "The creation of the first kindergarten within the framework of the InterDialog organization took place in early 2012 in Vienna and a short time later 6 more kindergartens were opened. We also have the most businesslike and warm relations with the Department of Family and Child Education of the Vienna Magistrate, who is responsible for the opening of kindergartens in Vienna.",
+        "presentation_subtitle": "The creation of the first kindergarten within the framework of the InterDialog organization took place in early 2012 in Vienna and a short time later 8 more kindergartens were opened. We also have the most businesslike and warm relations with the Department of Family and Child Education of the Vienna Magistrate, who is responsible for the opening of kindergartens in Vienna.",
         "presentation_reg": "REGISTRATION",
+        "presentation_reg_close": "Close",
         "card_1_header": "learning & Fun",
         "card_1_content": "Our kindergartens have a competent and effective program for the comprehensive development of the child. Special emphasis is placed on educational games for learning about the world around us. We also pay close attention to pre-school children's training.",
         "card_2_header": "Qualified Teachers",
@@ -52,5 +55,8 @@
         "article_2": "Our teachers have the knowledge and experience to provide a multilingual environment where children can comfortably communicate and understand each other. We value and encourage cultural diversity, and we believe that it enriches the educational process and helps children understand and respect differences. We have highly qualified and friendly staff who ensure the safety and comfort of your child. ",
         "article_3": "We have created a stimulating and inspiring educational environment where knowledge and play go hand in hand. We invite you to visit us to personally get acquainted with our kindergarten, meet with our staff and ask any questions you may have. ",
         "article_4": "Thank you for choosing our kindergarten for your child. We will be glad to become your reliable partners in the upbringing and development of your baby. Welcome to our big and friendly family!",
-        "footer_text": "You can contact us at any time convenient for you with all your questions."
+        "footer_text": "You can contact us at any time convenient for you with all your questions.",
+        "address": "Address",
+        "telephone": "Phone",
+        "mail": "Email"
     }

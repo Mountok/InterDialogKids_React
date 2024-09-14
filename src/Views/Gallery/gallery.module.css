@@ -10,8 +10,10 @@
     text-transform: uppercase;
     margin-bottom: 40px;
 }
-
-.images{
+.images_header{
+    padding-top: 30px;
+}
+.images,.videos{
     display: flex;
     justify-content: center;
     flex-direction: row;

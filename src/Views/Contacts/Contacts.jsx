@@ -25,7 +25,7 @@ const Contacts = () => {
       <div className={styles.card}>
         <h2>{t("contacts_item_2_heading")}</h2>
         <p>
-        {t("contacts_item_2_content")}
+        {t("address")}: Denisgasse 38/4 5 1200 <br /> {t("telephone")}: 0664/5680155 <br /> {t("mail")}: office@interdilog.at
             
         </p>
       </div>

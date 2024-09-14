@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Suspense fallback={<div>loading...</div>}>
-        <App />
+        <App /> 
       </Suspense>
     </BrowserRouter>
   </React.StrictMode>,

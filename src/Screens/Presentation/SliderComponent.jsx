@@ -27,30 +27,20 @@ const SliderComponent = () => {
     },
     {
       id: 2,
-      imageUrl: '/images/children_7.jpeg',
+      imageUrl: '/images/children_22.jpeg',
 
     },
     {
       id: 3,
-      imageUrl: '/images/children_2.jpg',
+      imageUrl: '/images/children_33.jpeg',
     },
     {
         id: 4,
-        imageUrl: '/images/children_3.jpg',
+        imageUrl: '/images/children_44.jpeg',
       },
       {
         id: 5,
-        imageUrl: '/images/children_4.jpeg',
-      },
-      {
-        id: 6,
-        imageUrl: '/images/children_5.jpeg',
-
-      },
-      {
-        id: 7,
-        imageUrl: '/images/children_6.jpeg',
-
+        imageUrl: '/images/children_55.jpeg',
       },
   ];
 

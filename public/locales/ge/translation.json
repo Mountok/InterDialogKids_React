@@ -1,11 +1,13 @@
 {
+    "header_video": "Video",
     "header_home": "ZUHAUSE",
     "header_aboutus": "ÜBER UNS",
     "header_gallery": "GALERIE",
     "header_contacts": "KONTAKTE",
     "presentation_header": "OFFENE WELT FÜR JEDES KIND",
-    "presentation_subtitle": "Die Gründung des ersten Kindergruppen im Rahmen der InterDialog-Organisation erfolgte Anfang 2012 in Wien und kurze Zeit später wurden 6 weitere Kindergruppen eröffnet. Wir haben auch die geschäftsmäßigsten und herzlichsten Beziehungen zur Abteilung für Familien- und Kindererziehung des Wiener Magistrats, die für die Eröffnung von Kindergruppen in Wien verantwortlich ist.",
+    "presentation_subtitle": "Die Gründung des ersten Kindergruppen im Rahmen der InterDialog-Organisation erfolgte Anfang 2012 in Wien und kurze Zeit später wurden 8 weitere Kindergruppen eröffnet. Wir haben auch die geschäftsmäßigsten und herzlichsten Beziehungen zur Abteilung für Familien- und Kindererziehung des Wiener Magistrats, die für die Eröffnung von Kindergruppen in Wien verantwortlich ist.",
     "presentation_reg": "REGISTRIERUNG",
+    "presentation_reg_close": "Schließen",
     "card_1_header": "Lernen & Spaß",
     "card_1_content": "Unsere Kindergruppen haben ein kompetentes und effektives Programm für die umfassende Entwicklung des Kindes. Besonderer Wert wird auf Lernspiele gelegt, um etwas über die Welt um uns herum zu lernen. Wir achten auch sehr auf die Ausbildung von Vorschulkindern.",
     "card_2_header": "Qualifizierte Lehrer",
@@ -52,5 +54,8 @@
     "article_2": "Unsere Lehrer verfügen über das Wissen und die Erfahrung, um ein mehrsprachiges Umfeld zu schaffen, in dem Kinder bequem kommunizieren und sich verstehen können. Wir schätzen und fördern kulturelle Vielfalt und glauben, dass sie den Bildungsprozess bereichert und Kindern hilft, Unterschiede zu verstehen und zu respektieren. Wir haben hochqualifiziertes und freundliches Personal, das für die Sicherheit und den Komfort Ihres Kindes sorgt. ",
     "article_3": "Wir haben ein anregendes und inspirierendes Bildungsumfeld geschaffen, in dem Wissen und Spiel Hand in Hand gehen. Wir laden Sie ein, uns zu besuchen, um unseren Kindergarten persönlich kennenzulernen, sich mit unseren Mitarbeitern zu treffen und Ihre Fragen zu stellen. ",
     "article_4": "Vielen Dank, dass Sie sich für unseren Kindergarten für Ihr Kind entschieden haben. Wir freuen uns, Ihre zuverlässigen Partner bei der Erziehung und Entwicklung Ihres Babys zu werden. Willkommen in unserer großen und freundlichen Familie!",
-    "footer_text": "Sie können uns jederzeit mit all Ihren Fragen kontaktieren."
+    "footer_text": "Sie können uns jederzeit mit all Ihren Fragen kontaktieren.",
+    "address": "Adresse",
+    "telephone": "Telefon",
+    "mail": "E-Mail"
 }
