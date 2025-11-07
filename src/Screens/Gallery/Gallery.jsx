@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from "react-i18next";
 
 const Gallery = () => {
-  const [t,_] = useTranslation()
+  const [t, _] = useTranslation()
   return (
     <section className={styles.section}>
-        <h2>{t("gallery_heading")}</h2>
-        <div className={styles.images}>
-            <img className={styles.image} src="/images/1.jpeg" alt="" />
-            <img className={styles.image} src="/images/2.jpeg" alt="" />
-            <img className={styles.image} src="/images/3.jpeg" alt="" />
-            <img className={styles.image} src="/images/4.jpeg" alt="" />
-            <img className={styles.image} src="/images/5.jpg" alt="" />
-            <img className={styles.image} src="/images/6.jpg" alt="" />
-            <img className={styles.image} src="/images/7.jpg" alt="" />
-            <img className={styles.image} src="/images/8.jpg" alt="" />
-            <Link className={styles.image} to='/gallery'>{t("gallery_more")}</Link>
-        </div>
+      <h2>{t("gallery_heading")}</h2>
+      <div className={styles.images}>
+        <img className={styles.image} src="/images/фото_1.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_2.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_3.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_4.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_5.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_6.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_7.jpeg" alt="" />
+        <img className={styles.image} src="/images/фото_8.jpeg" alt="" />
+        <Link className={styles.image} to='/gallery'>{t("gallery_more")}</Link>
+      </div>
     </section>
   )
 }
